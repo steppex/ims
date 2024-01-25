@@ -1,0 +1,12 @@
+## remote ip
+# host=10.168.1.110
+
+## wsl ip
+host=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}')
+
+## display格式(hostname:displaynumber.screennumber)
+export DISPLAY=$(echo $host):0.0
+export LIBGL_ALWAYS_INDIRECT=true
+echo $DISPLAY
+
+npm start
