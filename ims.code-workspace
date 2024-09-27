@@ -1,0 +1,21 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "name": "root"
+        },
+        {
+            "path": "./client",
+            "name": "client"
+        },
+        {
+            "path": "./web-rsbuild",
+            "name": "web-rsbuild"
+        }
+    ],
+    "settings": {
+        "cSpell.words": [
+            "tailwindcss"
+        ]
+    }
+}
